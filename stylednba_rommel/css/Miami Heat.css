@@ -1,0 +1,40 @@
+body {
+    background-image: url("../img/Miami-Heat-logo.png");
+    background-size: 30% 30%;
+    background-repeat: no-repeat;
+    background-color: #ba778b;
+    background-position: center;
+    background-position: top;
+}
+
+.select {
+    background-color: #98002E;
+    cursor: pointer;
+}
+
+.typeComment {
+    background-color: #98002E;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Merriweather', serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    text-transform: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+
+tr:hover {
+    background-color: #A1A1A4
+}

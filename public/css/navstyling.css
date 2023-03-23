@@ -1,0 +1,94 @@
+.dropdown1 { /*  */
+    display: inline-block;
+    position: relative;
+}
+
+
+.dropButton1 { /*  */
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.dropdown1:hover .dropButton1 { /*  */
+    background-color: aqua;
+}
+
+.dropdownContent1 {
+    border: 1px solid red;
+    display: none;
+    min-width: 160px;
+    box-shadow: #000000;
+}
+
+.dropdownContent1 a {
+    text-decoration: #000000;
+    color: black;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdownContent1 a:hover {
+    background-color: #8f8d8d;
+}
+
+.dropdown1:hover .dropdownContent1 {
+    display: block;
+}
+
+/********************************************/
+/*Styling for horizontal navbar with dropdown*/
+
+.horizontalNav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.horizontalNav li {
+    display: inline-block;
+}
+
+.horizontalNav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.horizontalNav li a:hover{
+    background-color: red;
+}
+
+.horizontalNav li .dropdownContainer2 {
+    display: inline-block;
+}
+
+.dropdownContainer2 .dropdownContent2 {
+    display: none;
+    position: absolute;
+    background-color: #b9b9b9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.horizontalNav .dropdownContainer2 .dropdownContainer2 a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdownContainer2 .dropdownContent2 a:hover {
+    background-color: white;
+}
+
+.dropdownContainer2:hover .dropdownContent2 {
+    display: block;
+}

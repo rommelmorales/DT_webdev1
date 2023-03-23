@@ -1,0 +1,46 @@
+body {
+    background-image: url("../img/istockphoto-936830242-612x612.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    
+}
+
+.content {
+    max-width: 550px;
+    margin: auto;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Merriweather', serif; 
+    font-family: 'Tilt Warp', cursive;
+    font-size: 48px;
+}
+
+ol {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+li {
+    width: auto;
+    display: inline;
+}
+
+/*.dropdown1 {
+    display: inline-block;
+    position: relative;
+}
+
+
+.dropButton1 {
+    background-color: #1d428a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.dropdown1:hover .dropButton1 {  
+    background-color: #ffffff;
+}*/

@@ -1,0 +1,39 @@
+body {
+    background-image: url("../img/lakers-logo.png");
+    background-size: 30% 30%;
+    background-repeat: no-repeat;
+    background-color: #552583;
+    background-position: center;
+    background-position: top;
+}
+
+.select {
+    background-color: #FDB927;
+    cursor: pointer;
+}
+
+.typeComment {
+    background-color: #FDB927;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    text-transform: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+
+tr:hover {
+    background-color: #A1A1A4
+}

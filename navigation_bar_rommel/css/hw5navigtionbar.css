@@ -1,0 +1,210 @@
+.navbar {
+    overflow: hidden;
+    background-color: #f0ac2fcc;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align:unset;
+    padding: 10px 16px;
+    text-decoration: none;
+} 
+
+.example {
+    float: right;
+} 
+
+* {
+    box-sizing: border-box;
+  }
+
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid none;
+    float: right;
+    width: 200px;
+    background: #f1f1f1;
+    padding: 14px 16px;
+  }
+
+  form.example button {
+    float: right;
+    padding: 16px 16px;
+    background: #2196F3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.dropdown1 {
+    display: inline-block;
+    /*position: relative;*/
+    /*overflow: hidden;*/
+}
+
+.dropdown2 {
+    display: inline-block;
+    /*position: relative;*/
+    /*overflow: hidden;*/
+}
+
+.dropdown3 {
+    display: inline-block;
+    /*position: relative;*/
+    /*overflow: hidden;*/
+}
+
+.dropdown4 {
+    display: inline-block;
+    /*position: relative;*/
+    /*overflow: hidden;*/
+}
+
+#blog {
+    display: inline-block;
+}
+
+.dropdownContent1 {
+    display: none;
+    min-width: 160px;
+    box-shadow: #f0ac2fcc;
+    z-index: 1;
+    background-color: yellowgreen; 
+    position: absolute;
+    text-decoration: none;
+}
+
+.dropdownContent2 {
+    display: none;
+    min-width: 160px;
+    box-shadow: #f0ac2fcc;
+    z-index: 1;
+    background-color:cadetblue; 
+    position: absolute;
+    text-decoration: none;
+}
+
+.dropdownContent3 {
+    display: none;
+    min-width: 160px;
+    box-shadow: #f0ac2fcc;
+    z-index: 1; 
+    position: absolute;
+    text-decoration: none;
+}
+
+.dropdownContent1 a {
+    float: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.dropdownContent2 a {
+    float: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.dropdownContent3 a {
+    float: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.dropButton1 { /*  */
+    background-color: #d680b2cc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+.dropButton2 { /*  */
+    background-color: #2f6cf0cc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+.dropButton3 { /*  */
+    background-color: #f0ac2fcc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+.dropButton4 { /*  */
+    background-color: #f0ac2fcc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+.dropdown1:hover .dropButton1 { /*  */
+    background-color: inherit;
+}
+
+.dropdown1:hover .dropdownContent1 {
+    display: block; 
+}
+
+.dropdown2:hover .dropdownContent2 {
+    display: block; 
+}
+
+.dropdownContent1 a:hover { /*ito yung nag palabas sa link or details sa dropdown*/
+    background-color: #f0ac2fcc;
+}
+
+.dropdownContent2 a:hover { /*ito yung nag palabas sa link or details sa dropdown*/
+    background-color: #f0ac2fcc;
+}
+
+.navbar a:hover, .dropdown1:hover .dropButton1 {
+    background-color: #2196f3;
+  }
+
+.navbar a:hover, .dropdown2:hover .dropButton2 {
+    background-color: #2196f3;
+  }
+
+.navbar a:hover, .dropdown3:hover .dropButton3 {
+    background-color: #2196f3;
+  }
+
+  .navbar a:hover, .dropdown4:hover .dropButton4 {
+    background-color: #2196f3;
+  }
+/*********************************************/
+

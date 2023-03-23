@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.sidenav {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.sidenav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+
+}
+
+.sidenav a:hover{
+    background: add;
+}
+
+#brand-name img {
+    width: 220px;
+    height: auto;
+}
+
+#brand-name2 {
+    background-image: url("../img/Netflix-Official-Logo.png");
+    background-position: center;
+    /*background-repeat: no-repeat;
+    background-clip: content-box;
+    object-fit: fill;
+    width: 220px;
+    height: 20px;*/
+    border: 2px solid black;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+
+}
+
+.content {
+    margin-left: 220px;
+    padding-left: 20px;
+
+}

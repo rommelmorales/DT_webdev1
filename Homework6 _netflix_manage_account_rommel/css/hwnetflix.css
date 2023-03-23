@@ -1,0 +1,64 @@
+body {
+    background-color: #141414;
+    color: white;
+}
+
+.content {
+    max-width: 400px;
+    margin: auto;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Merriweather', serif; 
+    font-family: 'Tilt Warp', cursive;
+    font-size: 50px;
+    font-style: white;
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.content1 {
+    /*max-width: 1200px;
+    margin: 260px;
+    font-style: white;
+    position: center;
+    display: inline-block;*/
+    padding: none;
+    text-align: center;
+
+}
+
+div.gallery {
+    margin: 5px;
+    width: 180px;
+    display:inline-block;
+    text-align: center;
+    padding: none;
+    
+}
+
+ div.gallery img:hover {
+    border: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
+  
+div.gallery img {
+    width: 84px;
+}
+
+.center {
+    padding: 70px 0px;
+    text-align: center;
+    border: none;
+    background-color: #141414;
+}
+
+.button {
+    background-color: #141414;
+    color: #141414;
+    border: 0.5px solid #e5e5e5
+}
+
+div.center button:hover {
+    background-color: #141414;
+    color:#e5e5e5
+}
+

@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    background-image: url("../img/charlotteCenterbackground.png");
+    background-repeat: no-repeat;
+    background-size: 1200px 800px;
+    background-position-x: center;
+}
+    
+
+div.box-collective {
+    width: 100%;
+    margin-top: 28%;
+    text-align:center;
+    
+}
+
+div.box {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+
+.Charlotte-Hornets {
+    font-family: 'Slabo 27px', serif;
+}
+
+#box1 {
+    background-image: url("../img/lamelo-ball.png");
+    background-color: #00788C;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #A1A1A4;
+    text-align: center;
+    
+}
+
+#box2 {
+    background-image: url("../img/T.Rozier.png");
+    background-color: #00788C;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #A1A1A4;
+    text-align: center;
+}
+
+#box3 {
+    background-image: url("../img/G.Hayward.png");
+    background-color: #00788C;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #A1A1A4;
+    text-align: center;
+}
+
+#box3 {
+    background-image: url("../img/G.Hayward.png");
+    background-color: #00788C;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #A1A1A4;
+    text-align: center;
+}
+
+#box4 {
+    background-image: url("../img/JT\ Thor.png");
+    background-color: #00788C;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #A1A1A4;
+    text-align: center;
+}
+
+#box5 {
+    background-image: url("../img/M.Williams.png");
+    background-color: #00788C;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #A1A1A4;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+.box {
+    border-width: 3px;
+    border-style: solid;
+    padding: 4px;
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#box1 {
+    border-color: red;
+    background-image: url("../img/Bike.jpg");
+    background-size:auto;
+    border-radius: 75%;
+}
+
+#box2 {
+    border-color: rgb(55, 0, 255);
+}
+
+#box3 {
+    border-color: rgb(82, 71, 71);
+}
+
+#box4 {
+    border-color: rgb(132, 221, 48);
+}
+

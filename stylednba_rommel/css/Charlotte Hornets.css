@@ -1,0 +1,39 @@
+body {
+    background-image: url("../img/Charlotte-Hornets-logo.png");
+    background-size: 30% 40%;
+    background-repeat: no-repeat;
+    background-color: #00788C;
+    background-position: center;
+    background-position: top;
+}
+
+.select {
+    background-color: #A1A1A4;
+    cursor: pointer;
+}
+
+.typeComment {
+    background-color: #A1A1A4;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Slabo 27px', serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    text-transform: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+
+tr:hover {
+    background-color: #A1A1A4
+}
